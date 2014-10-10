@@ -2,8 +2,8 @@ FROM java:7
 MAINTAINER Eric Bottard
 
 # 'snapshot' or 'release'
-ENV XD_BUILD snapshot
-ENV XD_VERSION 1.0.2.BUILD-SNAPSHOT
+ENV XD_BUILD release
+ENV XD_VERSION 1.0.1.RELEASE
 
 RUN groupadd -r springxd && useradd -r -g springxd springxd
 
