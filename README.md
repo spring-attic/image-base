@@ -1,3 +1,5 @@
+# image-base is no longer actively maintained by VMware, Inc.
+
 # Spring XD base image
 This serves as the basis of the other Spring XD images. End users need not interact with
 this docker image directly.
